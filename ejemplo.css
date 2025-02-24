@@ -1,0 +1,22 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.cuadro{
+    width:200px;
+    height:100px;
+    line-height:100px;
+    background-color:lightpink;
+    color:white;
+    font-size:18px;
+    margin:10px;
+    border-radius: 10px;
+    transition:0.3s;
+}
+
