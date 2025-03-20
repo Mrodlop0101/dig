@@ -1,0 +1,48 @@
+.titulo{
+    text-align: center;
+}
+.contenedor{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.cuadro{
+    width:320px;
+    height:170px;
+    line-height:100px;
+    background-color:lightpink;
+    color:rgb(121, 121, 121);
+    font-size:18px;
+    margin:10px;
+    border-radius: 10px;
+    transition:0.3s;
+}
+.contenedor2{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.cuadro2{
+    width:480px;
+    height:100px;
+    line-height:100px;
+    background-color: bisque;
+    color:rgb(78, 78, 78);
+    font-size:18px;
+    margin:10px;
+    border-radius: 10px;
+    transition:0.3s;
+}
+.superContenedor{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tarjeta{
+    display:grid ;
+    grid-template-columns: 1fr;
+
+}
+
+.compra{
+
+}
